@@ -6,7 +6,7 @@ void threadMain()
 	bool currentState = false;
 	while (true)
 	{
-		if (GetAsyncKeyState(VK_F5))
+		if (GetAsyncKeyState(VK_F4))
 		{
 			currentState = !currentState;
 		
